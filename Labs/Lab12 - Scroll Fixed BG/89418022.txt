@@ -1,0 +1,392 @@
+Sat Mar 10 12:49:04 2012 -0500 version 0.4-next 
+
+Sat Mar 10 12:43:58 2012 -0500 version 0.4 
+
+Sat Mar 10 12:43:31 2012 -0500 extract SDL version into a variable for easier updating 
+
+Sat Mar 10 12:30:54 2012 -0500 add website reference to README 
+
+Sat Jan 21 18:51:40 2012 -0500 add SDL.FreeCursor 
+
+Sun Jan 15 10:00:38 2012 -0500 rework "gl" example to rotate a colored quad 
+
+Sun Jan 15 09:50:45 2012 -0500 tests: prepend build path instead of appending 
+
+Sat Jan 7 22:58:45 2012 -0500 add constants DEFAULT_REPEAT_{DELAY,INTERVAL} 
+
+Fri Jan 6 21:44:03 2012 -0500 add gl example script 
+
+Tue Jan 3 21:41:49 2012 -0500 add wininst Makefile target 
+
+Tue Jan 3 21:34:15 2012 -0500 v0.3 
+
+Mon Jan 2 21:01:42 2012 -0500 add cursor test script 
+
+Mon Jan 2 21:00:20 2012 -0500 finish SDL.CreateCursor() 
+
+Mon Jan 2 20:12:13 2012 -0500 add SDL.GetCursor() 
+
+Mon Jan 2 20:10:12 2012 -0500 add SDL.SetCursor() 
+
+Mon Jan 2 19:58:23 2012 -0500 add SDL.Cursor interface functions 
+
+Mon Jan 2 19:40:55 2012 -0500 add SDL.CreateCursor() 
+
+Mon Jan 2 10:20:45 2012 -0500 accessing clip_rect in a Surface will return an up-to-date Rect instance 
+
+Mon Jan 2 10:16:08 2012 -0500 add SDL.Cursor object 
+
+Sun Jan 1 16:37:25 2012 -0500 add SDL.ShowCursor() 
+
+Sun Jan 1 16:33:35 2012 -0500 add SDL.DISABLE 
+
+Sun Jan 1 16:32:34 2012 -0500 add SDL.WarpMouse() 
+
+Sun Jan 1 16:20:35 2012 -0500 add SDL.GL_SwapBuffers() 
+
+Sun Jan 1 16:16:16 2012 -0500 add SDL.GL_SetAttribute() 
+
+Sun Jan 1 16:11:25 2012 -0500 add SDL.GL_GetAttribute() 
+
+Sun Jan 1 16:03:08 2012 -0500 add SDL.FillRect() 
+
+Sun Jan 1 15:55:46 2012 -0500 add SDL.BlitSurface() 
+
+Sun Jan 1 15:43:59 2012 -0500 add SDL.GetClipRect() 
+
+Sun Jan 1 15:37:39 2012 -0500 add SDL.SetClipRect() 
+
+Sun Jan 1 15:21:49 2012 -0500 SDL.Rect objects own their SDL_Rect structures 
+
+Thu Dec 29 12:11:18 2011 -0500 add SDL.SetAlpha() 
+
+Thu Dec 29 11:54:05 2011 -0500 add ALPHA constants 
+
+Thu Dec 29 11:50:49 2011 -0500 add SDL.SetColorKey() 
+
+Thu Dec 29 11:39:11 2011 -0500 add SDL.SaveBMP() 
+
+Thu Dec 29 11:27:55 2011 -0500 add SDL.LoadBMP() 
+
+Thu Dec 29 11:24:14 2011 -0500 add SDL.DisplayFormatAlpha() 
+
+Thu Dec 29 11:22:51 2011 -0500 add SDL.DisplayFormat() 
+
+Thu Dec 29 11:20:31 2011 -0500 add SDL.ConvertSurface() 
+
+Thu Dec 29 09:56:59 2011 -0500 add SDL.UnlockSurface() 
+
+Thu Dec 29 09:53:53 2011 -0500 add SDL.LockSurface() 
+
+Thu Dec 22 00:48:50 2011 -0500 add SDL.CreateRGBSurfaceFrom() 
+
+Thu Dec 8 20:24:26 2011 -0500 add own_pixels_ptr to sdl_Surface 
+
+Thu Dec 8 20:16:59 2011 -0500 add SDL.CreateRGBSurface 
+
+Thu Dec 8 21:06:33 2011 -0500 check for errors in SDL.AddTimer 
+
+Tue Nov 29 22:31:27 2011 -0500 check for PyLong where appropriate in addition to PyInt 
+
+Tue Nov 29 21:43:25 2011 -0500 fix SDL.Surface to set an error when returning error values 
+
+Tue Nov 29 19:58:01 2011 -0500 update author email and version 0.2 
+
+Mon Nov 28 22:08:40 2011 -0500 add more constants 
+
+Mon Nov 28 22:07:51 2011 -0500 add SDL.AddTimer and SDL.RemoveTimer 
+
+Mon Nov 28 20:22:23 2011 -0500 add SDL.TimerID type 
+
+Mon Nov 28 20:14:24 2011 -0500 add SDL.Delay 
+
+Mon Nov 28 20:12:53 2011 -0500 add SDL.GetTicks 
+
+Mon Nov 28 20:10:11 2011 -0500 add SDL.WM_GrabInput 
+
+Mon Nov 28 20:06:22 2011 -0500 add more constants 
+
+Mon Nov 28 20:04:07 2011 -0500 test SDL.WM_ToggleFullScreen 
+
+Mon Nov 28 20:03:13 2011 -0500 add SDL.WM_ToggleFullScreen 
+
+Mon Nov 28 20:01:27 2011 -0500 add SDL.WM_IconifyWindow 
+
+Mon Nov 28 19:59:09 2011 -0500 add SDL.WM_SetIcon 
+
+Mon Nov 28 19:55:06 2011 -0500 add SDL.WM_GetCaption 
+
+Mon Nov 28 19:52:41 2011 -0500 add SDL.WM_SetCaption 
+
+Mon Nov 28 19:44:22 2011 -0500 add user data objects to SDL.Event; register SDL.Event type 
+
+Sun Nov 20 15:02:02 2011 -0500 change package name to use lowercase 
+
+Sat Nov 19 21:50:48 2011 -0500 ignore dist directory 
+
+Sat Nov 19 21:50:28 2011 -0500 rename tests to have .py extension 
+
+Sat Nov 19 21:45:32 2011 -0500 update setup.py for Windows builds 
+
+Sat Nov 19 16:13:38 2011 -0500 update tests/pixels with event handling 
+
+Sat Nov 19 15:50:17 2011 -0500 add SDL.JoystickEventState() 
+
+Sat Nov 19 15:45:52 2011 -0500 add SDL.GetAppState() 
+
+Sat Nov 19 15:44:23 2011 -0500 add application state constants 
+
+Sat Nov 19 15:42:04 2011 -0500 add SDL.GetRelativeMouseState() 
+
+Sat Nov 19 15:36:48 2011 -0500 add button mask constants 
+
+Sat Nov 19 14:57:18 2011 -0500 add SDL.BUTTON() 
+
+Sat Nov 19 14:55:01 2011 -0500 add SDL.GetMouseState() 
+
+Sat Nov 19 14:52:28 2011 -0500 add SDL.EnableKeyRepeat() 
+
+Sat Nov 19 14:50:47 2011 -0500 add SDL.EnableUNICODE() 
+
+Sat Nov 19 14:48:36 2011 -0500 add SDL.GetKeyName() 
+
+Sat Nov 19 14:27:18 2011 -0500 add SDL.SetModState() 
+
+Sat Nov 19 14:19:05 2011 -0500 add SDL.GetModState() 
+
+Sat Nov 19 14:14:53 2011 -0500 add SDL.GetKeyState() 
+
+Sat Nov 19 14:10:10 2011 -0500 add SDL.EventState() 
+
+Sat Nov 19 14:08:09 2011 -0500 add more constants 
+
+Sat Nov 19 14:01:27 2011 -0500 add SDL.PushEvent() 
+
+Sat Nov 19 13:58:11 2011 -0500 add SDL.WaitEvent() 
+
+Sat Nov 19 13:55:45 2011 -0500 add SDL.PollEvent() 
+
+Sat Nov 19 13:52:03 2011 -0500 add SDL.PeepEvents() 
+
+Sat Nov 19 13:38:12 2011 -0500 add SDL.EVENTMASK() 
+
+Sat Nov 19 13:32:00 2011 -0500 add more constants 
+
+Sat Nov 19 13:23:03 2011 -0500 add SDL.PumpEvents() 
+
+Sat Nov 19 13:19:54 2011 -0500 call PyObject_Del() from object destructors to properly reclaim heap memory 
+
+Sat Nov 19 13:15:47 2011 -0500 finish sdl_Event_from_SDL_Event() 
+
+Sat Nov 19 13:01:44 2011 -0500 filled in sdl_Event_getattro() 
+
+Sat Nov 19 12:59:06 2011 -0500 sdl_keysym can track a reference to an Event object 
+
+Fri Nov 18 23:58:03 2011 -0500 add sdl_keysym type 
+
+Fri Nov 18 23:39:18 2011 -0500 add SDL.Event type; need to finish getattro() 
+
+Fri Nov 18 22:05:49 2011 -0500 add SDL.NOEVENT 
+
+Fri Nov 18 21:38:59 2011 -0500 add event constants 
+
+Fri Nov 18 19:28:29 2011 -0500 add GL-related constants 
+
+Fri Nov 18 18:55:14 2011 -0500 change tests/pixels to use SDL.MapRGB() 
+
+Fri Nov 18 18:45:28 2011 -0500 add SDL.GetRGB() and SDL.GetRGBA() 
+
+Fri Nov 18 18:26:57 2011 -0500 add SDL.MapRGBA() 
+
+Fri Nov 18 18:24:29 2011 -0500 add SDL.MapRGB() 
+
+Fri Nov 18 18:22:36 2011 -0500 properly return from SDL.UpdateRects() 
+
+Fri Nov 18 18:21:01 2011 -0500 add SDL.SetGamma() 
+
+Fri Nov 18 18:18:57 2011 -0500 add SDL.UpdateRects() 
+
+Fri Nov 18 18:16:02 2011 -0500 add get_type() and accessor routine for sdl_Rect 
+
+Fri Nov 18 18:12:10 2011 -0500 add SDL.UpdateRect() 
+
+Fri Nov 18 18:06:28 2011 -0500 add tests/pixels to test pixel access 
+
+Fri Nov 18 18:02:07 2011 -0500 add SDL.ListModes() 
+
+Fri Nov 18 17:57:29 2011 -0500 add get_type() and accessor routine for sdl_PixelFormat 
+
+Fri Nov 18 17:55:40 2011 -0500 add/test SDL.VideoDriverName() 
+
+Fri Nov 18 17:54:57 2011 -0500 add SDL.FreeSurface() 
+
+Fri Nov 18 17:50:44 2011 -0500 fix sdl_Surface bug not assigning "surface" member 
+
+Fri Nov 18 17:48:46 2011 -0500 add SDL.Flip() 
+
+Fri Nov 18 17:47:51 2011 -0500 add sdl_Surface routines to get type object and extract SDL_Surface pointer 
+
+Fri Nov 18 17:43:28 2011 -0500 add SDL.SetVideoMode() and SDL.VideoModeOK() 
+
+Fri Nov 18 17:41:10 2011 -0500 convert various types to new setattro style 
+
+Thu Nov 17 23:53:15 2011 -0500 convert SDL.Palette to getattro/setattro style 
+
+Thu Nov 17 23:45:19 2011 -0500 fix sdl_Color_from_SDL_Color() 
+
+Thu Nov 17 23:30:42 2011 -0500 convert SDL.Color to new owner-style type 
+
+Thu Nov 17 23:30:27 2011 -0500 fix compiler warning with sdl_Rect 
+
+Thu Nov 17 22:59:27 2011 -0500 add sdl_Rect_dealloc() 
+
+Thu Nov 17 21:57:33 2011 -0500 SDL.Rect sets exception on attribute error 
+
+Wed Nov 16 21:07:01 2011 -0500 convert Rect to new owner-style 
+
+Wed Nov 16 18:37:45 2011 -0500 change PY_MAKE_CONST() to use take module parameter 
+
+Wed Nov 16 17:58:46 2011 -0500 add sdl_<type>_register_type() functions 
+
+Wed Nov 16 06:42:56 2011 -0500 rename test script to core-sdl 
+
+Wed Nov 16 06:41:57 2011 -0500 test SDL.GetVideoInfo() 
+
+Wed Nov 16 06:40:35 2011 -0500 fix type constructors to properly reference count 
+
+Wed Nov 16 06:37:23 2011 -0500 change type constructors to always require all parameters 
+
+Tue Nov 15 23:12:37 2011 -0500 fix segfault with SDL.GetVideoInfo() 
+
+Tue Nov 15 22:49:35 2011 -0500 fix SDL.VideoInfo formats 
+
+Tue Nov 15 22:46:08 2011 -0500 fix SDL.VideoInfo.__init__() 
+
+Tue Nov 15 22:43:12 2011 -0500 add SDL.GetVideoInfo() 
+
+Tue Nov 15 22:40:19 2011 -0500 add SDL.GetVideoSurface() 
+
+Tue Nov 15 22:36:37 2011 -0500 add sdl_VersionInfo_from_SDL_VersionInfo() 
+
+Tue Nov 15 22:30:54 2011 -0500 check for NULL in sdl_*_from_SDL_*() and return None 
+
+Tue Nov 15 22:26:19 2011 -0500 add sdl_Surface_from_SDL_Surface() 
+
+Tue Nov 15 22:20:17 2011 -0500 add sdl_VideoInfo_from_SDL_VideoInfo() 
+
+Tue Nov 15 22:15:04 2011 -0500 add sdl_PixelFormat_from_SDL_PixelFormat() 
+
+Tue Nov 15 20:34:53 2011 -0500 add sdl_Palette_from_SDL_Palette() 
+
+Tue Nov 15 20:28:01 2011 -0500 add sdl_Color_from_SDL_Color() 
+
+Tue Nov 15 20:22:30 2011 -0500 add sdl_Rect_from_SDL_Rect() 
+
+Tue Nov 15 19:38:23 2011 -0500 add sequence access items to SDL.Surface 
+
+Tue Nov 15 18:56:31 2011 -0500 add SDL.Surface type 
+
+Mon Nov 14 22:29:00 2011 -0500 add SDL.VideoInfo type 
+
+Mon Nov 14 21:57:16 2011 -0500 add SDL.PixelFormat type 
+
+Mon Nov 14 21:38:17 2011 -0500 add SDL.Palette type 
+
+Mon Nov 14 21:10:38 2011 -0500 add SDL.Rect type 
+
+Mon Nov 14 21:04:18 2011 -0500 add SDL.Color type 
+
+Mon Nov 14 21:03:45 2011 -0500 remove unused function prototype 
+
+Mon Nov 14 20:38:09 2011 -0500 initialize tp_new statically 
+
+Mon Nov 14 20:23:39 2011 -0500 change VersionInfo structure to directly include a SDL_version attribute 
+
+Mon Nov 14 18:57:17 2011 -0500 add SDL_Surface 'flags' field constants 
+
+Mon Nov 14 18:40:10 2011 -0500 add GPL/LGPL licenses and README 
+
+Mon Nov 14 18:28:25 2011 -0500 add additional error-related tests 
+
+Mon Nov 14 18:23:43 2011 -0500 fix test for version functions 
+
+Mon Nov 14 18:22:16 2011 -0500 refactor common VersionInfo object construction 
+
+Mon Nov 14 18:19:15 2011 -0500 add SDL.Linked_Version() 
+
+Sun Nov 13 21:21:51 2011 -0500 modify SDL.VERSION() to return a SDL.VersionInfo instance 
+
+Sun Nov 13 21:17:15 2011 -0500 update VersionInfo tp_flags 
+
+Sun Nov 13 20:52:40 2011 -0500 show error if creating sdl_VersionInfoType failed 
+
+Sun Nov 13 20:52:19 2011 -0500 fix case on VersionInfo class name 
+
+Sun Nov 13 19:40:09 2011 -0500 VersionInfo: remove new method, add init method 
+
+Sun Nov 13 16:13:36 2011 -0500 add SDL.VersionInfo type 
+
+Sat Nov 12 22:13:59 2011 -0500 add run-interpreter script 
+
+Tue Nov 8 20:42:45 2011 -0500 add SDL_VERSION(), but i do not like it -- should change it to a namespace 
+
+Tue Nov 8 20:19:29 2011 -0500 add SDL.ClearError() 
+
+Tue Nov 8 20:18:02 2011 -0500 add SDL.Error() 
+
+Tue Nov 8 20:08:42 2011 -0500 move reusable macros into pysdl.h 
+
+Tue Nov 8 19:53:28 2011 -0500 rename MAKE_CONST() to MAKE_PY_CONST() 
+
+Tue Nov 8 19:50:48 2011 -0500 rename METH_REF() to PYFUNC_REF() 
+
+Tue Nov 8 19:47:52 2011 -0500 rework MAKE_CONST*(), add KMOD consts 
+
+Tue Nov 8 19:42:59 2011 -0500 add keysyms 
+
+Tue Nov 8 19:28:19 2011 -0500 test-sdl: check_const() just looks up symbol, doesn't print its value 
+
+Tue Nov 8 19:26:44 2011 -0500 test error constants 
+
+Tue Nov 8 19:25:30 2011 -0500 add error constants 
+
+Tue Nov 8 19:21:52 2011 -0500 rework method table declaration using macros 
+
+Tue Nov 8 18:26:55 2011 -0500 add SDL.SetError() 
+
+Tue Nov 8 18:26:11 2011 -0500 change license to LGPL v2.1 
+
+Mon Nov 7 22:39:48 2011 -0500 add SDL.GetError() 
+
+Mon Nov 7 22:37:26 2011 -0500 add SDL.WasInit() 
+
+Mon Nov 7 22:35:12 2011 -0500 add SDL.QuitSubSystem() 
+
+Mon Nov 7 22:33:42 2011 -0500 add SDL.InitSubSystem() 
+
+Mon Nov 7 22:29:30 2011 -0500 add SDL.Quit() 
+
+Mon Nov 7 22:25:51 2011 -0500 implement SDL.Init() 
+
+Mon Nov 7 22:23:33 2011 -0500 update setup information 
+
+Mon Nov 7 22:23:11 2011 -0500 add "SDL" to libraries requirement for PySDL module 
+
+Mon Nov 7 22:22:44 2011 -0500 add clean target 
+
+Mon Nov 7 22:15:28 2011 -0500 test INIT constants 
+
+Mon Nov 7 22:14:27 2011 -0500 add more INIT constants 
+
+Mon Nov 7 21:32:58 2011 -0500 add test build target, test-sdl python script 
+
+Mon Nov 7 21:32:40 2011 -0500 use module dictionary for adding constants to 
+
+Mon Nov 7 21:05:57 2011 -0500 add MAKE_CONST macro family 
+
+Mon Nov 7 19:34:52 2011 -0500 add Makefile 
+
+Mon Nov 7 19:31:38 2011 -0500 use proper module initialization function name for dynamically loaded module 
+
+Sun Nov 6 20:08:31 2011 -0500 initial module, builds with distutils 
+
